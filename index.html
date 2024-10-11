@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adam George - Graphic Designer CV</title>
+    <title>Adam Mounir - Senior Graphic Designer CV</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <style>
         body {
@@ -25,7 +25,7 @@
             font-size: 40px;
             text-align: center;
             margin-bottom: 20px;
-            color: #4CAF50;
+            color: #E74C3C; /* Red color for heading */
         }
         .profile-pic {
             display: block;
@@ -33,11 +33,11 @@
             border-radius: 50%;
             width: 180px;
             height: 180px;
-            border: 5px solid #4CAF50;
+            border: 5px solid #E74C3C; /* Red color for profile image border */
         }
         h2 {
             font-size: 28px;
-            color: #4CAF50;
+            color: #E74C3C; /* Red color for section headings */
             margin-bottom: 10px;
         }
         p, li {
@@ -56,18 +56,25 @@
             text-align: center;
             margin-bottom: 40px;
         }
-        .contact-info a {
-            color: #333;
-            text-decoration: none;
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
             font-weight: 500;
+            color: #fff;
+            background-color: #E74C3C;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px;
+            transition: background-color 0.3s ease;
         }
-        .contact-info a:hover {
-            color: #4CAF50;
+        .button:hover {
+            background-color: #c0392b;
         }
         .skills, .work-experience {
             background-color: #f9f9f9;
             padding: 20px;
-            border-left: 5px solid #4CAF50;
+            border-left: 5px solid #E74C3C; /* Red border for sections */
             margin-bottom: 20px;
             border-radius: 5px;
         }
@@ -84,7 +91,7 @@
             content: '✔';
             position: absolute;
             left: 0;
-            color: #4CAF50;
+            color: #E74C3C; /* Red color for checkmarks */
         }
         footer {
             text-align: center;
@@ -97,10 +104,16 @@
 <body>
 
     <div class="container">
-        <h1>Adam George</h1>
+        <h1>Adam Mounir</h1>
         <img src="Asset-1-100.jpg" alt="Profile Picture" class="profile-pic">
 
         <div class="contact-info">
+            <a href="mailto:Adam.G.Mounir@gmail.com" class="button">Email Me</a>
+            <a href="tel:+201068931707" class="button">Call Me</a>
+        </div>
+
+        <div class="section">
+            <h2>Senior Graphic Designer</h2>
             <p>
                 <strong>Email:</strong> <a href="mailto:Adam.G.Mounir@gmail.com">Adam.G.Mounir@gmail.com</a><br>
                 <strong>Phone:</strong> +20 106 8931 707<br>
@@ -156,7 +169,7 @@
     </div>
 
     <footer>
-        &copy; 2024 Adam George - All rights reserved
+        &copy; 2024 Adam Mounir - All rights reserved
     </footer>
 
 </body>
