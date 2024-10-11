@@ -1,0 +1,237 @@
+/* entypo */
+[class*="entypo-"]:before {
+    font-family: 'entypo', sans-serif;
+}
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+    font-family: 'FontAwesome', sans-serif;
+}
+
+/* Utils */
+.clear {
+    clear: both;
+}
+
+.purple {
+    color: #837c9a;
+}
+
+.block {
+    margin: 25px 30px;
+}
+
+.block h1 {
+    margin-left: -5px;
+    font-weight: 200;
+}
+
+.last.block {
+    margin-bottom: 110px;
+}
+
+.horizontal_list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.horizontal_list li {
+    float: left;
+}
+
+.horizontal_list li:before {
+    content: none;
+}
+
+.horizontal_list li {
+    padding-left: 0;
+    text-indent: 0;
+}
+
+.horizontal_line {
+    margin: 34px 0 0 30px;
+    height: 26px;
+    position: relative;
+}
+
+.line_left,
+.line_right {
+    border-top: 1px solid #434247;
+    width: 305px;
+    margin-top: 13px;
+}
+
+.line_left {
+    float: left;
+}
+
+.line_right {
+    float: right;
+}
+
+.left_circle,
+.central_circle,
+.right_circle {
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid #837c9a;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.left_circle {
+    left: 0;
+}
+
+.central_circle {
+    left: 50%;
+    margin-left: -10px;
+}
+
+.right_circle {
+    right: 0;
+}
+
+.header_menu {
+    margin: 0;
+    padding: 0;
+}
+
+.header_menu li {
+    margin-right: 30px;
+}
+
+.header_menu a {
+    text-decoration: none;
+    color: #837c9a;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.header_menu a:hover {
+    color: #434247;
+}
+
+.header_menu .no_border {
+    border: none;
+}
+
+.header_menu .no_border:hover {
+    color: #434247;
+}
+
+.send_message_button {
+    display: inline-block;
+    padding: 12px 30px;
+    border: 1px solid #434247;
+    color: #434247;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.send_message_button:hover {
+    background: #434247;
+    color: white;
+}
+
+.send_message_button .cut1,
+.send_message_button .cut2 {
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+}
+
+.send_message_button .cut1 {
+    left: 0;
+    background: #d1cfd3;
+}
+
+.send_message_button .cut2 {
+    right: 0;
+    background: #d1cfd3;
+}
+
+.header_logotype_container {
+    margin: 30px 0 0 30px;
+}
+
+.logotype_name {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+
+.logotype_occupation {
+    font-weight: 300;
+    font-size: 14px;
+    margin: 0;
+}
+
+#left_col {
+    width: 260px;
+    float: left;
+}
+
+.profile_frame {
+    margin: 0 30px;
+}
+
+.profile_picture {
+    width: 250px;
+    height: 250px;
+    border: 4px solid #434247;
+    border-radius: 50%;
+    background-size: cover;
+    margin: 20px 0;
+}
+
+.header_menu_container {
+    margin: 30px;
+}
+
+.footer_name {
+    margin: 20px 30px;
+    color: #837c9a;
+    font-size: 12px;
+}
+
+#footer {
+    position: relative;
+    bottom: 0;
+    height: 70px;
+}
+
+#content_container {
+    margin-left: 300px;
+}
+
+#content_container h1,
+#content_container h2 {
+    color: #434247;
+}
+
+.profile_quote {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.profile_quote p {
+    margin: 0;
+}
+
+.philosophy_content {
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+.philosophy_content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
