@@ -3,173 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adam Mounir - Senior Graphic Designer CV</title>
-    <style>
-        body {
-            font-family: 'Helvetica', sans-serif; /* Changed to Helvetica */
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            color: #333;
-        }
-        .container {
-            background-color: #fff;
-            padding: 40px;
-            max-width: 900px;
-            margin: 50px auto;
-            border-radius: 10px;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            font-size: 40px;
-            text-align: center;
-            margin-bottom: 20px;
-            color: #ff1d1d; /* Bright red color */
-        }
-        .profile-pic {
-            display: block;
-            margin: 0 auto;
-            border-radius: 50%;
-            width: 180px;
-            height: 180px;
-            border: 5px solid #ff1d1d; /* Bright red border */
-        }
-        h2 {
-            font-size: 28px;
-            color: #ff1d1d; /* Bright red color for section headings */
-            margin-bottom: 10px;
-        }
-        p, li {
-            font-size: 16px;
-            line-height: 1.7;
-            color: #555;
-        }
-        ul {
-            list-style-type: disc;
-            padding-left: 20px;
-        }
-        .section {
-            margin-bottom: 40px;
-        }
-        .contact-info {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            font-size: 16px;
-            font-weight: 500;
-            color: #fff;
-            background-color: #ff1d1d; /* Bright red button */
-            text-decoration: none;
-            border-radius: 5px;
-            margin: 10px;
-            transition: background-color 0.3s ease;
-        }
-        .button:hover {
-            background-color: #c91c1c; /* Darker red on hover */
-        }
-        .skills, .work-experience {
-            background-color: #f9f9f9;
-            padding: 20px;
-            border-left: 5px solid #ff1d1d; /* Bright red border for sections */
-            margin-bottom: 20px;
-            border-radius: 5px;
-        }
-        .skills ul, .work-experience ul {
-            padding-left: 0;
-            list-style: none;
-        }
-        .skills li, .work-experience li {
-            position: relative;
-            padding-left: 25px;
-            margin-bottom: 10px;
-        }
-        .skills li::before, .work-experience li::before {
-            content: '✔';
-            position: absolute;
-            left: 0;
-            color: #ff1d1d; /* Bright red checkmark */
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            font-size: 14px;
-            color: #888;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic" rel="stylesheet" type="text/css">
+    <link href="https://weloveiconfonts.com/api/?family=entypo|fontawesome" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Javier Latorre's CV</title>
 </head>
 <body>
 
-    <div class="container">
-        <h1>Adam Mounir</h1>
-        <img src="https://github.com/Adam-Mounir/AdamMounirCV/blob/main/Asset%201-100.jpg?raw=true" alt="Profile Picture" class="profile-pic">
-
-        <div class="contact-info">
-            <a href="mailto:Adam.G.Mounir@gmail.com" class="button">Email Me</a>
-            <a href="tel:+201068931707" class="button">Call Me</a>
+    <!-- MAIN CONTAINER -->
+    <div id="main_container">
+        <!-- HEADER -->
+        <div id="header">
+            <!-- LOGOTYPE/NAME -->
+            <div class="header_logotype_container">
+                <h1 class="logotype_name">Javier <span class="purple">Latorre</span></h1>
+                <h2 class="logotype_occupation">Frontend Web Developer</h2>
+            </div>
+            <!-- MAIN MENU -->
+            <div class="header_menu_container">
+                <ul class="download_print_buttons horizontal_list">
+                    <li><a href="#"><span class="icon entypo-download"></span>Download CV</a></li>
+                    <li><a href="#"><span class="icon entypo-print"></span>Print CV</a></li>
+                </ul>
+                <div class="clear"></div>
+                <ul class="header_menu horizontal_list">
+                    <li><a class="no_border purple" href="#">Profile</a></li>
+                    <li><a href="#">Education</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Work Experience</a></li>
+                    <li><a href="#">Featured Projects</a></li>
+                    <li><a href="#">Awards</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- LEFT COL -->
+        <div id="left_col">
+            <div class="profile_frame">
+                <div class="profile_picture" style="background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/86033/profile/profile-512_3.jpg');"></div>
+            </div>
+            <div class="hello_content">
+                <h2>Hello!</h2>
+                <p>I'm passionate about technology and human behavior, hard worker, and a fast learner with experience in around 10 different countries studying, working, and volunteering.</p>
+            </div>
+            <div class="contact_details_content">
+                <h2>Contact details</h2>
+                <p class="purple">Phone:</p>
+                <p>+34 123 456 789</p>
+                <p class="purple">Email:</p>
+                <p>jlalovi@gmail.com</p>
+                <p class="purple">Address:</p>
+                <p>Someplace, 5</p>
+                <p>Jaén, Spain</p>
+                <p>23001</p>
+            </div>
+            <a href="mailto:jlalovi@gmail.com" class="send_message_button">
+                <span class="cut1"></span>
+                <span class="cut2"></span>
+                <span class="content">Send me a message <span class="fontawesome-double-angle-right"></span></span>
+            </a>
+            <div class="get_social_content">
+                <h2>Get social</h2>
+                <ul class="social_icons horizontal_list">
+                    <li><a class="facebook" href="https://www.facebook.com/jlalovi"><span class="entypo-facebook-circled"></span><span class="invisible">Facebook</span></a></li>
+                    <li><a class="twitter" href="https://twitter.com/jlalovi"><span class="entypo-twitter-circled"></span><span class="invisible">Twitter</span></a></li>
+                    <li><a class="linkedin" href="https://www.linkedin.com/in/jlalovi/en"><span class="entypo-linkedin-circled"></span><span class="invisible">LinkedIn</span></a></li>
+                </ul>
+            </div>
         </div>
 
-        <div class="section">
-            <h2>Senior Graphic Designer</h2>
-            <p>
-                <strong>Email:</strong> <a href="mailto:Adam.G.Mounir@gmail.com">Adam.G.Mounir@gmail.com</a><br>
-                <strong>Phone:</strong> +20 106 8931 707<br>
-                <strong>Location:</strong> 40 Ismail Serry, Smouha, Alexandria
-            </p>
+        <!-- PROFILE CONTENT -->
+        <div id="content_container">                
+            <div class="block">
+                <h1>Profile</h1>
+                <blockquote class="profile_quote">
+                    <p>"There is no end to education. It is not that you read a book, pass an examination, and finish with education. The whole of life, from the moment you are born to the moment you die, is a process of learning."</p>
+                    <p>Jiddu Krishnamurti.</p>
+                    <span class="entypo-quote"></span>
+                </blockquote>
+            </div>
+            <div class="block">
+                <h2>A few words about me</h2>
+                <p>Until now, in my life, I change from active moments with a lot of variety, challenges, and improvisations, to moments of tranquility and stability, being difficult to stay in a place during a long time. I consider myself a tolerant and respectful person with an open mind and quite honest. I really like to listen to people's stories and backgrounds and their different experiences around the world.</p>                
+            </div>
+            <div class="horizontal_line">
+                <div class="line_left"></div>
+                <div class="left_circle"></div>
+                <div class="central_circle"></div>
+                <div class="right_circle"></div>
+                <div class="line_right"></div>
+            </div>
+            <div class="block">
+                <h2>Philosophy</h2>
+                <p>I believe in ethics and morals, not in imposed rules that you "have to" do or follow.</p>
+                <div class="philosophy_content">
+                    <p>I believe life is made of different shades of grey, not from black and white. Furthermore, as a human being with rationality, I think it is our duty to take care of the world and treat others as one would like others to treat oneself. This way of perceiving reality affects my beliefs and my way of behaving. Summarizing on several points:</p>
+                    <ul>
+                        <li>Pragmatic</li>
+                        <li>Honest</li>
+                        <li>Respectful</li>
+                        <li>Open-minded</li>
+                        <li>Coherent</li>
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="horizontal_line">
+                <div class="line_left"></div>
+                <div class="left_circle"></div>
+                <div class="central_circle"></div>
+                <div class="right_circle"></div>
+                <div class="line_right"></div>
+            </div>
+            <div class="last block">
+                <h2>Interests & Hobbies</h2>
+                <p>I'm passionate about technology and human behavior, both determine almost all my interests and hobbies:</p>
+                <ul>
+                    <li>Visiting new places</li>
+                    <li>Meeting people</li>
+                    <li>Having new experiences</li>
+                    <li>Hiking and Biking</li>
+                    <li>Web Developing</li>
+                    <li>Computer Gaming</li>
+                    <li>Manga and Anime</li>
+                </ul>
+            </div>
         </div>
+        <div class="clear"></div>
 
-        <div class="section">
-            <h2>Education</h2>
-            <p><strong>2023-2027:</strong> Bachelor Degree in Graphics, Faculty of Arts & Design, Pharos University</p>
-            <p><strong>2023:</strong> American School of Alexandria, General Secondary Education (American Diploma)</p>
-        </div>
-
-        <div class="section work-experience">
-            <h2>Work Experience</h2>
-            <h3>Avocado Marketing Solution (Mid Weight Graphic Designer)</h3>
-            <ul>
-                <li>Collaborated with luxury hospitality brands (Four Seasons, Hilton, Sheraton).</li>
-                <li>Improved operational workflows and boosted occupancy rates through strategic design.</li>
-                <li>Designed packaging layouts and instructional materials.</li>
-                <li>Maintained consistency in brand messaging while enhancing guest experiences.</li>
-            </ul>
-            <h3>ElRa3y for Advertising (Jr Graphic Designer)</h3>
-            <ul>
-                <li>Managed high-quality advertising collateral and branding.</li>
-                <li>Coordinated creative work with producers and strategists.</li>
-                <li>Directed design processes, ensuring brand consistency.</li>
-            </ul>
-            <h3>Freelancer (Jr Graphic Designer)</h3>
-            <ul>
-                <li>Developed social media content, brand development, and printable advertising.</li>
-                <li>Managed brand profiles to enhance engagement and visibility across digital formats.</li>
-                <li>Designed marketing materials including brochures, business cards, and large-scale advertisements.</li>
-            </ul>
-        </div>
-
-        <div class="section skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>Adobe Photoshop - Professional</li>
-                <li>Adobe Illustrator - Professional</li>
-                <li>Adobe InDesign - Intermediate</li>
-                <li>Adobe Premiere Pro - Intermediate</li>
-                <li>Adobe After Effects - Beginner</li>
-                <li>Adobe Dimension - Beginner</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>References</h2>
-            <p>Available on request</p>
+        <!-- FOOTER -->
+        <div id="footer">
+            <p class="footer_name">Javier Latorre CV 2023</p>
         </div>
     </div>
 
-    <footer>
-        &copy; 2024 Adam Mounir - All rights reserved
-    </footer>
-
+    <script src="script.js"></script>
 </body>
 </html>
